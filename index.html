@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="google-site-verification" content="qyGS7g6QEjRnN0LpL2ldeHpmQxss2NCA4Ig_73WdnAw" />
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Josefin+Slab|Nanum+Myeongjo|Quattrocento|Philosopher|Assistant|K2D|family=Cabin&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+	background: white;
+    text-align:justify;
+	font-family: 'IBM Plex Serif', serif;
+}
+
+header {background: black;color:white; }
+footer {background: white;color:black; 	font-size: 13px;}
+
+.nav {
+	background:#eee;
+	font-size: 15px;
+	font-family: 'IBM Plex Serif', serif;
+
+}
+
+.nav a {
+	text-decoration: none;
+	color:	#0000EE;
+	font-family: 'IBM Plex Serif', serif;
+
+}
+
+
+body {
+<!--
+	font-family: 'IBM Plex Serif', serif;  
+	font-family: 'Philosopher', sans-serif;
+	font-family: 'Assistant', sans-serif;
+	font-family: 'Josefin Slab', serif; 	
+	font-family: 'Quattrocento', serif;
+	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'IBM Plex Serif', serif;
+--->
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.article a {
+	text-decoration: none;
+	color:	#0000EE;
+	font-family: 'IBM Plex Serif', serif;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-color:#d6001c ;
+    border-width: 1px;
+} 
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #d6001c ;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555 ;
+}
+
+
+@media all and (min-width: 768px) {
+    .nav {text-align:centre;-webkit-flex: 0.2 auto;flex:0.2 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+	#myBtn {-webkit-order:3;order:3;}
+    footer {-webkit-order:4;order:4;}
+
+
+}
+
+newmark {
+  background-color: #FF8C00;
+  color: white;
+  font-size: 10px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="flex-container">
+
+<!-- -->
+<header>
+  <h1>Saswata Paul</h1>
+</header>
+
+<!-- -->
+<nav class="nav">
+  <img src="homepage_images/DP.jpeg" alt="HTML5 Icon" style="width:170px;height:193px; border:1px solid #021a40;">
+  <p>PhD student </p> 
+  <p><a href="http://wcl.cs.rpi.edu/">Worldwide Computing Laboratory,</a></p>
+  <p><a href="http://www.cs.rpi.edu/">Department of Computer Science,</a></p>
+  <p><a href="http://www.rpi.edu/">Rensselaer Polytechnic Institute,</a></p> 
+  <p><a href="https://www.google.com/maps/place/110+8th+St,+Troy,+NY+12180/@42.7308677,-73.6839071,17z/data=!3m1!4b1!4m5!3m4!1s0x89de0fa0bfbe9ded:0x9ff3b77ab0128c3f!8m2!3d42.7308677!4d-73.6817184">110 8th Street, Troy, NY 12180, USA.</a></p>
+  <p>Office: <a href="https://info.rpi.edu/map">Lally 04</a></p>
+  <p>Email: <a href="mailto:pauls4@rpi.edu">pauls4@rpi.edu</a></p>
+  <p><a href="homepage_resources/Resume.pdf"><img src="homepage_images/cv-3.png"  style="vertical-align:middle;width:60px;height:60px;"></a></p>
+  <p><a href="https://scholar.google.com/citations?user=XjoNiPIAAAAJ&hl=en"><img src="homepage_images/Scholar-Logo.png"  style="vertical-align:middle;width:63px;height:25px;"></a></p>
+  <p><a href="https://github.com/paulsaswata"><img src="homepage_images/github.png"  style="vertical-align:middle;width:15px;height:15px;"> <img src="homepage_images/GitHub-Logo.png"  style="vertical-align:middle;width:58px;height:15px;"></a></p>
+  <p><a href="https://www.linkedin.com/in/saswata-paul-02505b174/"><img src="homepage_images/LinkedIn-Logo.png"  style="vertical-align:middle;width:74px;height:20px;"></a></p> 
+</nav>
+
+<!-- -->
+<article class="article">
+
+  <p>I am a PhD student in the Department of Computer Science at Rensselaer Polytechnic Institute. 
+  I am affiliated to the Worldwide Computing Laboratory (WCL) at RPI and <a href="http://www.cs.rpi.edu/~cvarela/">Dr. Carlos A. Varela</a> is my research advisor.</p>
+  <p>My hometown is Agartala, the capital of the Indian state of Tripura.</p>
+
+<!-- -->
+<h2>Education</h2>
+  <ul>
+	  <li>M.S. in Computer Science from Rensselaer Polytechnic Institute, NY, United States, December 2018</li> 
+	  <li>B.Tech. in Computer Science and Engineering from National Institute of Technology Agartala, Tripura, India, May 2015</li>
+  </ul>
+  
+
+<!-- -->  
+  <h2>Research</h2>
+
+  <h3>Ph.D. Committee</h3>  
+  <ul>
+  <li><a href="https://faculty.rpi.edu/node/35988">Dr. Carlos A. Varela </a>(Chair, RPI)</li>
+  <li><a href="https://faculty.rpi.edu/node/35987">Dr. Stacy Patterson </a>(RPI)</li>
+  <li><a href="https://faculty.rpi.edu/selmer-bringsjord">Dr. Selmer Bringsjord </a>(RPI)</li>  
+  <li><a href="https://shemesh.larc.nasa.gov/people/cam/">Dr. C&eacute;sar A. Mu&ntilde;oz </a>(NASA)</li>
+  </ul>
+
+  <p>My research interests lie in dynamic data-driven applications systems, cyber-physical systems, distributed algorithms, and formal verification.
+
+  
+  <h3>Provably Safe Aerospace Systems</h3>
+  
+  <p>Current air-traffic control (ATC) is dependent on human controllers and is vulnerable to human errors. The system is not scalable and cannot be formally verified. ATC errors have been identified as factors in catastrophic incidents like the <a href="https://en.wikipedia.org/wiki/Gol_Transportes_A%C3%A9reos_Flight_1907">Gol Transportes Aéreos Flight 1907</a>, the <a href="https://en.wikipedia.org/wiki/2002_%C3%9Cberlingen_mid-air_collision">2002 Überlingen mid-air collision</a>, and the much recent <a href="https://www.ntsb.gov/_layouts/ntsb.aviation/brief.aspx?ev_id=20150816X60452&key=1">collision between a Cessna and a Sabreliner</a>. Another limitation of human-managed ATC is the lack of fast and precise decision making in the face of emergencies -- e.g., in the <a href= "https://en.wikipedia.org/wiki/US_Airways_Flight_1549">Hudson river landing incident of US Airways Flight 1549</a>, by the time the ATC decided that LGA13 of LaGuardia Airport, New York City, was the best possible option for landing the flight safely, the aircraft had already lost too much altitude to reach that runway.</p>    
+  <p>With the integration of unmanned aircraft systems (UAS) for civilian applications, the density of aircraft in the National Airspace System (NAS) is expected to increase significantly in the near future. This will make it necessary to implement smarter air traffic management (ATM) systems that can ensure required separation between airborne aircraft in the NAS. Intelligent aerospace systems of the future will also be more self-sufficient in terms of self-diagnosis and self-healing. This will be made possible by an unprecedented amount of real-time data from both onboard sensors and network-connected sources. The main focus of my research is to design formally-verified techniques for making aerospace systems safer. More details can be found at the project links provided below.</p>  
+  
+  <h3>Projects</h3>  
+  <ul>
+  <li><a href="http://wcl.cs.rpi.edu/pilots/fvcafp">Formally Verified Decentralized Air Traffic Management</a></li>
+  <li><a href="http://wcl.cs.rpi.edu/pilots/fvdddas">Formal Verification of Dynamic Data-Driven Aerospace Systems</a></li>  
+  <li><a href="http://wcl.cs.rpi.edu/pilots/trajectory">Emergency Trajectory Generation for Fixed-Wing Aircraft</a></li>
+  </ul>  
+
+  <p>My research is being supported by grants from the <a href="https://www.wpafb.af.mil/afrl/afosr/">Air Force Office of Scientific Research (AFOSR)</a> and the <a href ="https://www.nsf.gov">National Science Foundation (NSF)</a>.</p>
+
+  
+  
+  
+<!--   
+  <p>My <a href="https://wcl.cs.rpi.edu/bib/Author/PAUL-S.html">WCL publications list</a> and <a href="https://scholar.google.com/citations?user=XjoNiPIAAAAJ&hl=en">Google Scholar page.</a></p>
+-->
+
+<!-- -->
+  <h2>Selected Publications</h2>  
+  <ul>
+  <li>Master's Thesis<a href="http://wcl.cs.rpi.edu/theses/paul_ms.pdf"><img src="homepage_images/pdficon.png"  style="vertical-align:middle;width:20px;height:20px;"></a></li>
+  <li>My <a href="https://wcl.cs.rpi.edu/bib/Author/PAUL-S.html">WCL publications list</a></li>
+  <li>My <a href="https://scholar.google.com/citations?user=XjoNiPIAAAAJ&hl=en">Google Scholar page</a></li>
+  </ul>
+<!-- -->
+  <h2>Highlights</h2>
+  <ul>
+  <li>(10/07/2021) <img src="homepage_images/newicon.png"  style="vertical-align:middle;width:34px;height:20px;"> Our <a href="http://wcl.cs.rpi.edu/papers/DASC2021_valapil.pdf"> paper on Operational Risk Assessment </a> received the <i>Best Paper Award, Software Develpment Session,</i> at <a href="https://2021.dasconline.org/">DASC 2021</a> </li>    
+  <li>(04/30/2021) Successfully passsed the Ph.D. Candidacy Exam </li>  
+  <li>(08/15/2020) Received the <i>GE Impact Award</i> as a Summer Research Intern at GE Global Research, Niskayuna, NY, USA</li>
+  <li>(09/01/2019) Our <a href="http://wcl.cs.rpi.edu/bib/Year/2019.complete.html#paul-dasc-2019">paper on conflict-aware flight planning</a> has been nominated for the <i>Best Student Paper Award</i> at <a href="https://2019.dasconline.org/">DASC 2019</a></li>
+  <li>(03/24/2019) Our Emergency Trajectory Generation project was featured in a <a href="https://www.timesunion.com/business/article/Researchers-at-RPI-study-causes-of-fatal-air-13711440.php?utm_source=facebook.com&amp;cmpid=fbsocialflow&amp;utm_campaign=socialflow&amp;utm_medium=referral&amp;fbclid=IwAR0sGY4FR47dj4DFIK2D4-qAr1TK9uFA0sbfU7T_XkSs0vu4x818sNyLcqA">news article</a> in the Albany Times Union</li>
+  
+  </ul>
+  </article>
+
+<!-- The script below introduces a BACK TO TOP button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back<br>to<br>top</button>
+<script>
+document.addEventListener("touchstart", function() {}, true);
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+  
+  
+<!-- -->  
+<footer>
+<a href="http://www.rpi.edu/"><img src="homepage_images/lgplogo2c.jpg" alt="HTML5 Icon" style="width:264px;height:50px;"></a>
+<br>
+<hr>
+<script style="font-family: 'Quattrocento', serif" language="Javascript">
+document.write("This page was last modified on: " + document.lastModified +"");
+</SCRIPT>
+</footer>
+</div>
+
+
+</body>
+</html>
